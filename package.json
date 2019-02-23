@@ -1,0 +1,22 @@
+{
+  "name": "lvmama",
+  "version": "1.0.0",
+  "description": "软件架构说明\r ### 安装教程\r     1.\r     2.\r     3.\r     4.\r ### 使用说明\r     1.\r     2.\r     3.\r ### 参与贡献\r     1.\r     2.\r     3.\r 山豆根士大夫公司发的公司",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolarisTiger/lvmama.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PolarisTiger/lvmama/issues"
+  },
+  "homepage": "https://github.com/PolarisTiger/lvmama#readme",
+  "dependencies": {
+    "swiper": "^4.4.6"
+  }
+}

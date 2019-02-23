@@ -4,9 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="../node_modules/swiper/dist/css/swiper.min.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <title>驴mother</title>
 </head>
 <body>
-    lvmama
+    <header>
+        <!-- 表头左边部分 -->
+        <div class="head-left">
+            <div class="head-city">北京</div>
+            <img class="head-triangle" src="img/sanjiaoxing.png" alt="">
+        </div>
+
+        <div class="head-search_img">
+            <img class="head-search_img-png" src="https://pics.lvjs.com.cn/mobile/node_pro/projects/homepage/static/images/fangdajing.png" alt="">
+        </div>
+        <!-- search搜索框 -->
+        <input type="text" class="head-search" placeholder="温泉季">
+        <!-- 表头右边部分 -->
+        <div class="head-right">
+            <img class="head-service" src="https://pics.lvjs.com.cn/pics/super/2019/01/1546502444_47638.png" alt="">
+            <img class="head-mine" src="https://pics.lvjs.com.cn/mobile/node_pro/projects/homepage/static/images/my.png" alt="">
+        </div>
+    </header>
+    
+    
+    <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <img src="https://pics.lvjs.com.cn/pics/super/2019/02/1550067651_79369.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                  <img src="https://pics.lvjs.com.cn/pics/super/2019/02/1550717990_12639.jpg" alt="">
+                </div>
+              <div class="swiper-slide">
+                  <img src="https://pics.lvjs.com.cn/pics/super/2019/02/1550473458_67055.jpg" alt="">
+                </div>
+              <div class="swiper-slide">
+                  <img src="https://pics.lvjs.com.cn/pics/super/2019/02/1550740187_20514.jpg" alt="">
+                </div>
+              <div class="swiper-slide">
+                  <img src="https://pics.lvjs.com.cn/pics/super/2019/02/1550225195_92296.jpg" alt="">
+                </div>
+              <div class="swiper-slide">
+                  <img src="https://pics.lvjs.com.cn/pics/super/2019/02/1549987964_44302.jpg" alt="">
+                </div>
+              <div class="swiper-slide">
+                    <img src="https://pics.lvjs.com.cn/pics/super/2019/02/1550734416_37563.jpg" alt="">
+              </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+    <script src="../node_modules/swiper/dist/js/swiper.min.js"></script>
+    <script>
+            var swiper = new Swiper('.swiper-container', {
+              pagination: {
+                el: '.swiper-pagination',
+              },
+            });
+    </script>
 </body>
 </html>
